@@ -1,0 +1,194 @@
+@import url('http://fonts.cdnfonts.com/css/iranian-sans');
+
+body{
+    font-family: 'Iranian Sans', sans-serif;
+}
+/* /colors */
+
+.bg-green{
+    background-color:#45a132;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-green2{
+    background-color: #93c588;
+}
+.whith{
+    color: white !important;
+}
+.grayLight{
+    color: #a2a2a2;
+}
+
+/* /////////////////////navbar /////////////////////////// */
+hr{
+    height:17px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+ul li{
+    padding:3px;
+}
+.li2{
+    border-radius: 28px;
+}
+#menu{
+    color: #a2a2a2;
+}
+#menu li{
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.li3{
+        box-shadow: -3px 1px 6px -1px #9e9e9e87;
+        width: 98 px !important ;
+        padding: 11px 33px 11px 33px;
+        border-radius:94px;
+}
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #bfb0b0a1;
+    box-shadow: 0px 3px 7px -4px;
+    padding-bottom: 10px;
+    border-top:0px;
+    margin-top: -10px;
+
+}
+button{
+    border:0px;
+}
+
+/* تا زمانی که به 480 برسه     - 0-480  */
+@media screen and (max-width:650px){
+.logo{
+    width:100px;
+}
+.navbar{
+    float:right;
+}
+.navbar button{
+    border: 0px;
+}
+#menu{
+    display: none;
+    width:38%;
+
+
+}
+
+}
+
+@media screen and (min-width:668px){
+    .navbar{
+        display: flex;
+    }
+    li{
+        margin-left: 35px;;
+    }
+    div button{
+        margin-right: 175px;
+        margin-top: 11px;
+  
+    }
+    div button img{
+        width:115px;
+    }
+    .li2{
+        padding:4px 25px 2px 25px;
+    }
+    .li3{
+        position: absolute;
+        left: 0px;
+    }
+    
+
+}
+
+h1{
+    text-align: center;
+    color: #5b5959;
+}
+
+
+/* *********************content ***************/
+.circles{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.circle{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:#ffca1d;
+    margin-top:10px;
+    text-align: center;
+}
+
+.circle2,.circle3{
+    margin-right: 134px;
+}
+
+
+.img1{
+    width: 55px;
+    margin-top: 21px;
+}
+
+.caption{
+    padding-top:25px;
+    color: #666666;
+}
+
+
+/* ***********carts******************** */
+
+.footer{
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 105px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.titr-footer{
+    padding:35px;
+    color: #45a149;
+}
+
+
+.div-footer{
+    background-color: white;
+    border-radius:10px;
+    margin-bottom: 25px;
+    padding-left:60px;
+    padding-right: 60px;
+}
+
+.carts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer2, .footer3, .footer4{
+    margin-right: 30px;
+}
+
+.div-footer{
+    padding-top:13px;
+    padding-bottom: 13px;
+    box-shadow: 2px -3px 9px -5px #bbb4b4d4;
+}
+
+.caption2{
+    color: #45a149;
+
+}
+.div-footer :hover{
+    border-bottom: 120px solid #45a132;
+}
